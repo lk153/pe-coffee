@@ -6289,11 +6289,11 @@ footer .edgtf-footer-top.edgtf-footer-top-aligment-right {
 
 footer .edgtf-footer-bottom-holder {
     width: 100%;
-    background-color: #000;
+    background-color: #1c532b;
     vertical-align: middle;
     text-align: center;
     padding: 18px 0;
-    border-top: 1px solid #000
+    border-top: 1px solid #1c532b
 }
 
 footer .edgtf-footer-bottom-holder .edgtf-column-inner {
@@ -6497,7 +6497,7 @@ footer .widget.widget_recent_entries .post-date {
 }
 
 footer .widget.widget_text {
-    color: #acacac
+    color: #fff
 }
 
 footer .widget .edgtf-working-hours-holder {
@@ -15910,4 +15910,12 @@ blockquote .edgtf-blockquote-text {
 
 .edgtf-top-bar .edgtf-social-icon-widget-holder,footer .edgtf-social-icon-widget-holder {
     color: #fff
+}
+
+img.attachment-thumbnail.size-thumbnail.wp-post-image {
+    background-color: #fff;
+}
+
+img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail {
+    background-color: #F5F5F5;
 }
