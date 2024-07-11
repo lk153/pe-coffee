@@ -4935,7 +4935,7 @@ body:not(.edgtf-menu-with-large-icons) .edgtf-main-menu .edgtf-drop-down .edgtf-
 }
 
 .edgtf-light-header .edgtf-page-header>div:not(.edgtf-sticky-header) .edgtf-social-icon-widget-holder,.edgtf-light-header.edgtf-header-style-on-scroll .edgtf-page-header .edgtf-social-icon-widget-holder {
-    color: #fff!important
+    color: #000!important
 }
 
 .edgtf-light-header .edgtf-page-header>div:not(.edgtf-sticky-header):hover .edgtf-social-icon-widget-holder .edgtf-social-icon-widget,.edgtf-light-header.edgtf-header-style-on-scroll .edgtf-page-header:hover .edgtf-social-icon-widget-holder .edgtf-social-icon-widget {
@@ -6224,7 +6224,7 @@ footer .edgtf-footer-inner {
 }
 
 footer .edgtf-container {
-    background-color: inherit
+    background-color: #1c532b;
 }
 
 footer .edgtf-container-inner {
@@ -15908,8 +15908,10 @@ blockquote .edgtf-blockquote-text {
     letter-spacing: inherit
 }
 
+/* Custom css */
+
 .edgtf-top-bar .edgtf-social-icon-widget-holder,footer .edgtf-social-icon-widget-holder {
-    color: #fff
+    color: #000
 }
 
 img.attachment-thumbnail.size-thumbnail.wp-post-image {
@@ -15918,4 +15920,20 @@ img.attachment-thumbnail.size-thumbnail.wp-post-image {
 
 img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail {
     background-color: #F5F5F5;
+}
+
+footer .edgtf-footer-top-holder {
+    border: none;
+}
+
+footer .widget.edgtf-footer-bottom-left.widget_text {
+    color: #000;
+}
+
+footer .edgtf-footer-bottom-holder {
+    background-color: #f0b12b;
+}
+
+footer .edgtf-footer-bottom-holder-inner .edgtf-container {
+    background-color: #f0b12b;
 }
