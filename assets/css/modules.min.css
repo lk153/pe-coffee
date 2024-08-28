@@ -4733,17 +4733,23 @@ input[type=number] {
 }
 
 .edgtf-logo-wrapper a img.edgtf-normal-logo {
-    opacity: 1
+    opacity: 1;
+    border-radius: 10px;
+    margin-top:5px;
 }
 
 .edgtf-logo-wrapper a img.edgtf-dark-logo {
     opacity: 0;
+    border-radius: 10px;
+    margin-top:5px;
     -webkit-transform: translateY(-100%);
     transform: translateY(-100%)
 }
 
 .edgtf-logo-wrapper a img.edgtf-light-logo {
     opacity: 0;
+    border-radius: 10px;
+    margin-top:5px;
     -webkit-transform: translateY(-200%);
     transform: translateY(-200%)
 }
@@ -6116,7 +6122,7 @@ body.edgtf-dropdown-slide-from-left .edgtf-drop-down .edgtf-menu-narrow .edgtf-m
 }
 
 .edgtf-page-header .edgtf-sticky-header {
-    height: 60px;
+    height: 115px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -6135,12 +6141,12 @@ body.edgtf-dropdown-slide-from-left .edgtf-drop-down .edgtf-menu-narrow .edgtf-m
 
 .edgtf-page-header .edgtf-sticky-header .edgtf-sticky-holder {
     height: 100%;
-    background-color: #fdfdfd;
+    background-color: rgba(255, 255, 255, -1);
     position: relative;
     z-index: 2;
-    box-shadow: 0 1px 12px rgba(0,0,0,.05);
+    /* box-shadow: 0 1px 12px rgba(0,0,0,.05); */
     box-sizing: border-box;
-    border-bottom: 1px solid #fdfdfd
+    /* border-bottom: 1px solid #fdfdfd */
 }
 
 .admin-bar .edgtf-page-header .edgtf-sticky-header.header-appear {
@@ -6181,7 +6187,8 @@ body.edgtf-dropdown-slide-from-left .edgtf-drop-down .edgtf-menu-narrow .edgtf-m
 }
 
 .edgtf-light-header .edgtf-logo-area .edgtf-light-logo,.edgtf-light-header .edgtf-menu-area .edgtf-light-logo,.edgtf-light-header .edgtf-vertical-menu-area .edgtf-light-logo {
-    opacity: 1
+    opacity: 1;
+    border-radius: 10px;
 }
 
 .edgtf-light-header .edgtf-logo-area .edgtf-dark-logo,.edgtf-light-header .edgtf-logo-area .edgtf-normal-logo,.edgtf-light-header .edgtf-menu-area .edgtf-dark-logo,.edgtf-light-header .edgtf-menu-area .edgtf-normal-logo,.edgtf-light-header .edgtf-vertical-menu-area .edgtf-dark-logo,.edgtf-light-header .edgtf-vertical-menu-area .edgtf-normal-logo {
